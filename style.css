@@ -61,7 +61,13 @@ cursor: pointer;
 
 /* ------------------------------ */
 /* ---------- HERO ------------ */
-
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
 .hero .hero-heading{
   font-family: 'Dela Gothic One';
   font-size: 5.5rem;
